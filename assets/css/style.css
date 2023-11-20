@@ -1,0 +1,341 @@
+
+body{
+    height: 70px;
+    background: linear-gradient(90deg, rgb(116, 240, 223), rgb(0, 68, 255));
+}
+
+.caja1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: #00ff00;
+    width: 100%;
+    height: 280px;
+}
+
+.caja2{
+    background-color: aqua;
+    background: linear-gradient(90deg, rgb(94, 255, 0), rgb(238, 255, 0));
+    width: 100%;
+    height: 120px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin-bottom: 20px;
+}
+.wrapper{
+    width: 50%;
+    margin: 50px;
+    overflow: hidden;
+}
+
+
+
+nav{
+    flood-opacity: 80%;
+}
+
+nav ul{
+    list-style: none;
+    overflow: auto;
+}
+
+nav ul li{
+    float: right;
+    font-family: arial, sans-serif;
+    font-size: 28px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #c52700;
+}
+
+.contenido{
+    padding-top: 80px;
+}
+
+.container{
+    position: absolute;
+     left:10%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+input{
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: #070707;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid #e23023;
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: #808380;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: #f7ac0c;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn i{
+    font-size: 25px;
+    color: blanchedalmond;
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+.container:hover input{
+    width: 350px;
+}
+
+.container:hover i{
+    transform: rotate(-360deg);
+}
+
+.btn:hover{
+    background: #ffe600;
+
+}
+
+.caja3{
+    background: linear-gradient(90deg, rgb(116, 240, 223), rgb(0, 68, 255));
+    width: 100%;
+    height: 60px;
+}
+
+.temas{
+    color: rgb(164, 167, 170);
+    background: linear-gradient(90deg, blue, rgb(0, 255, 0));
+    width: 300px;
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-left:   400px;
+    margin-right:  400px;
+    text-align: center;
+    border: 5px solid rgb(236, 233, 233);
+    
+}
+
+.caja4{
+    background: linear-gradient(90deg, rgb(116, 240, 223), rgb(0, 68, 255));
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.sobe{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float:left;
+    margin: 0 50px 50px 0;
+}
+
+.justic{
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius:50%;
+        border-bottom-left-radius: 50%;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin: 0 50px 50px 0;
+        
+    
+}
+.libert{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:50%;
+    border-bottom-left-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 0 50px 50px 0;
+}
+
+.cult{
+     border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:50%;
+    border-bottom-left-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 0 50px 50px 0;
+
+}
+
+.textoimagen{
+    background-color: rgb(228, 240, 240);
+    background: linear-gradient(90deg, rgb(94, 255, 0), rgb(238, 255, 0));
+    width: 100%;
+    height: 500px;   
+}
+
+.pepe {
+    width: 100%;
+    height: 100%;
+}
+
+.just{
+    float: left;
+    margin: 40px;
+    margin-bottom: 40px;
+    height: 50%;
+    width: 25%;
+
+}
+
+.intro{
+    color: #ff8800;
+     background: linear-gradient(90deg, blue, rgb(0, 255, 0));
+    padding-left: 60%;
+    padding-right: 10%;
+    font-size: 26px;
+    margin: 10px;   
+    border: 5px solid rgb(224, 80, 8);
+}
+
+
+
+.parraf{
+    padding-left: 50%;
+    padding-right: 10%;
+    font-size: 26px;
+
+
+}
+.textoCentrado{
+    color: #f8ba0e;
+    background: linear-gradient(90deg, blue, rgb(0, 255, 0));
+    text-align: center;
+    height: 50px;
+    line-height: 100%;
+    left: 40%;
+    font-size: 60px;
+    font-family:"fantasy"; 
+    
+}
+
+.introduccion{
+    color: #f8ba0e;
+    text-align: center;
+    line-height: 40%;
+    top: 25%;
+    left: 40%;
+    font-size: 60px;
+    font-family:"fantasy";
+}
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #46402f;
+    background: linear-gradient(90deg, rgb(94, 255, 0), rgb(238, 255, 0));
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo{
+    text-align: center;
+}
+
+.container-footer footer .logo img{
+    width: 100px;
+}
+
+.container-footer footer .redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-footer footer .redes .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #e95905;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: rgb(170, 173, 175);
+}
+
+footer .redes .fa-facebook:hover{
+    background: linear-gradient(to top right, #0128d6, #327ae6, #62a3ee, #8af58a);
+    color: aliceblue;
+
+}
+
+footer .redes .fa-linkedin:hover{
+background: linear-gradient(to top right, #0128d6, #5505e9, #327ae6, #e95905);
+color: aliceblue;
+}
+
+footer .redes .fa-instagram:hover{
+    background: linear-gradient(to top right, #5505e9, #7623e2, #9c6bf5, #ee30af);
+    color: aliceblue;
+
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: rgb(2, 221, 21);
+}
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #808380;
+    font-weight: 500;
+}
